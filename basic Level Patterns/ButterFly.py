@@ -1,4 +1,5 @@
 n = 5
+  # first half
 for i in range(n+1):
     for j in range(i):
         print("*", end = " ")
@@ -7,6 +8,7 @@ for i in range(n+1):
     for j in range(i):
         print("*",end = " ")
     print()
+
 for i in range(n,0,-1):
     for j in range(i):
         print("*", end = " ")
